@@ -1,1 +1,7 @@
 #TODO: add eureka config for dev env
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka.team-c.cloud.school.thoughtworks.cn/eureka/
